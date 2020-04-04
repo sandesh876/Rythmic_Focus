@@ -1,0 +1,119 @@
+
+.navbar{
+    height: 70px;
+    width: 100%;
+   
+}
+.navbar .navbar-brand{
+    text-decoration: none;
+    font-weight: 700;
+    float: left;
+    color: white;
+    font-size: 30px;
+    
+
+}
+.navbar span{
+    font-weight: 500;
+}
+.main-content {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    bottom: 0;
+    position: relative;
+  
+    
+}
+
+footer p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+    text-align: center;
+}
+.info{
+    transform: translateY(10px);
+}
+
+.input-group{
+    width: 200px;
+    .input-group-append{
+        width: 40px;
+    }
+    #red{
+        background:#DC143C;
+    }
+    #green{
+        background: #2E8B57;
+    }
+    #blue
+    {
+        background:  #0881db ;
+    }
+    
+}
+
+.card_posts{
+    color: white;
+    width: 80%;
+    margin: auto;
+    a{
+        margin: auto;
+    img{
+        object-fit: cover;
+        height: 400px;
+        width:100%;
+        margin: auto;
+        
+    }
+   
+}
+}
+

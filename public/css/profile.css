@@ -1,0 +1,55 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+.navbar .navbar-brand {
+  text-decoration: none;
+  font-weight: 700;
+  float: left;
+  color: white;
+  font-size: 30px;
+}
+
+.navbar span {
+  font-weight: 500;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  height: 40px;
+  bottom: 0;
+  position: relative;
+}
+
+footer p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+  text-align: center;
+}
+
+.info {
+  transform: translateY(10px);
+}
+
+.card_profile {
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.card_profile .card-img-top {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
