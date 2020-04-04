@@ -20,5 +20,6 @@
                <button class="btn btn-success" type="submit">Update</button>
               </div>
         </form>
+      <a  class="btn btn-outline-secondary" href="{{route('dashboard')}}">Back</a>
     </div>
 @endsection
