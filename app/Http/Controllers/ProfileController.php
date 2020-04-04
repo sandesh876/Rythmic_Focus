@@ -34,6 +34,7 @@ class ProfileController extends Controller
 
 
         }
+        
         $id=$request->query('id');
         $user =User::find($id);
         $user->user_profile = $fileNameToStore;
